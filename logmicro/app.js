@@ -1,12 +1,13 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const logRouter = require('./routes/api/log');
 
 const app = express();
 app.use(bodyParser.json());
 
 
 
-
+app.use('/log', logRouter);
 
 const port = process.env.PORT || 8082;
 
