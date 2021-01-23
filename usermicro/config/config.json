@@ -1,0 +1,11 @@
+{
+	"title":"ABC",
+	"salt": 10,
+    "dbConnection": {
+        "host": "localhost",
+        "port": 8889,
+        "database": "demo_db",
+        "user": "root",
+        "password": "root"
+    }
+}
